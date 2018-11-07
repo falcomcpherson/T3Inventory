@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="@color/colorPrimaryDark"
+    android:backgroundTintMode="src_over"
+    tools:context=".EditInvActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/ItemEditorStyle"
+            android:text="@string/item"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"/>
+
+        <EditText
+            style="@style/ItemEditorStyle"
+            android:id="@+id/edit_item_name"
+            android:hint="@string/item_hint"
+            android:inputType="textCapWords"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/ItemEditorStyle"
+            android:text="@string/manufacturer_name"
+            app:autoSizeTextType="uniform"
+            app:autoSizeMinTextSize="12sp"
+            app:autoSizeMaxTextSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"/>
+
+        <EditText
+            style="@style/ItemEditorStyle"
+            android:id="@+id/edit_manufacturer"
+            android:hint="@string/manufacturer_name_hint"
+            android:inputType="textCapWords"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/ItemEditorStyle"
+            android:text="@string/supplier_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"/>
+
+        <EditText
+            style="@style/ItemEditorStyle"
+            android:id="@+id/edit_supplier_name"
+            android:hint="@string/supplier_name_hint"
+            android:inputType="textCapWords"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/ItemEditorStyle"
+            android:text="@string/supplier_phone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <EditText
+                style="@style/ItemEditorStyle"
+                android:id="@+id/edit_supplier_phone"
+                android:hint="@string/supplier_phone_hint"
+                android:inputType="phone"
+                android:layout_weight="1"/>
+
+            <ImageButton
+                android:id="@+id/call_button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:src="@drawable/phone"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/ItemEditorStyle"
+            android:text="@string/quantity"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"/>
+
+        <EditText
+            style="@style/ItemEditorStyle"
+            android:id="@+id/edit_quantity"
+            android:hint="@string/quantity_hint"
+            android:inputType="number"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/ItemEditorStyle"
+            android:text="@string/price"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"/>
+
+        <EditText
+            style="@style/ItemEditorStyle"
+            android:id="@+id/edit_item_price"
+            android:hint="@string/price_hint"
+            android:inputType="number"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/add_item_button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="8dp"
+            android:text="Add"/>
+
+        <Button
+            android:id="@+id/sell_item_button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="8dp"
+            android:text="Sell"/>
+    </LinearLayout>
+
+
+
+    <TextView
+        style="@style/ProdNotesTitleStyle"
+        android:text="@string/detailed_notes_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/edit_item_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/ItemEditorStyle"/>
+
+
+
+</LinearLayout>

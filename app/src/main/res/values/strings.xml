@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">T3 Inventory</string>
+    <string name="insert_test_item">Add Test Item</string>
+    <string name="action_delete_all_entries">DELETE ALL ITEMS</string>
+    <string name="add_new_item">Add New Item</string>
+    <string name="action_save">SAVE</string>
+    <string name="action_delete">DELETE</string>
+    <string name="action_cancel">CANCEL</string>
+    <string name="item">Item:</string>
+    <string name="price">Price:</string>
+    <string name="quantity">Quantity:</string>
+    <string name="manufacturer_name">Manufacturer:</string>
+    <string name="item_hint">Item Name</string>
+    <string name="price_hint">$ </string>
+    <string name="name_column_title">Item Name</string>
+    <string name="manufacturer_column_title">Manufacturer</string>
+    <string name="quantity_column_title">Qty.</string>
+    <string name="price_column_title">Price</string>
+    <string name="quantity_hint"># of Units</string>
+    <string name="manufacturer_name_hint">Company Name</string>
+    <string name="supplier_name_hint">Company Name</string>
+    <string name="supplier_phone_hint">10 digit number</string>
+    <string name="supplier_name">Supplier:</string>
+    <string name="supplier_phone">Phone:</string>
+    <string name="edit_item_header">Edit Item</string>
+    <string name="add_item_header">Add Item</string>
+    <string name="detailed_notes_header">Detailed Product Notes</string>
+    <string name="camera_button">Camera</string>
+    <string name="gallery_button">Gallery</string>
+    <string name="editor_activity_title_add_item">Add Item</string>
+    <string name="editor_activity_title_edit_item">Edit Item</string>
+    <string name="clear_inventory">Clear Inventory</string>
+    <string name="nav_bar_title">Inventory Management</string>
+    <string name="editor_insert_item_failed">Unable to add item</string>
+    <string name="editor_insert_item_successful">Item added to inventory</string>
+    <string name="editor_update_item_failed">Item update failed</string>
+    <string name="editor_update_item_successful">Item update completed</string>
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+    <string name="delete_dialog_msg">Delete this item?</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="editor_delete_item_successful">Item deleted</string>
+    <string name="editor_delete_item_failed">Error with deleting item</string>
+    <string name="discard">Discard</string>
+    <string name="keep_editing">Keep Editing</string>
+    <string name="insert_quantity_req">New item not added\nQuantity value needed</string>
+    <string name="update_quantity_req">Update failed\n Quantity value needed</string>
+    <string name="insert_supplier_req">New item not added\nQuantity value needed</string>
+    <string name="update_supplier_req">Update failed\n Quantity value needed</string>
+    <string name="insert_phone_req">New item not added\nQuantity value needed</string>
+    <string name="update_phone_req">Update failed\n Quantity value needed</string>
+    <string name="insert_price_req">New item not added\nPrice value needed</string>
+    <string name="update_price_req">Update failed. Price value needed</string>
+    <string name="insert_name_req">New item not added\nDevice name required</string>
+    <string name="update_name_req">Update failed\nDevice name required</string>
+    <string name="insert_manufacturer_req">New item not added\nManufacturer required</string>
+    <string name="update_manufacturer_req">Update failed\nManufacturer required</string>
+    <string name="insert_details_req">New item not added\nPlease add notes to item\'s detailed description</string>
+    <string name="update_details_req">Update failed\n Quantity value needed</string>
+    <string name="in_stock">In Stock: </string>
+    <string name="unit_sold">Unit Sold</string>
+    <string name="low_quantity_limit">Value may not be lower than 0 units</string>
+    <string name="call">Call</string>
+
+
+    <string name="help_menu">Help</string>
+    <string name="help_message">Thank you for using the T3 Inventory Application.
+        \n\nTo Add new items, select the Add Item option from the sidebar menu. All fields must be filled out for the item to be accepted.
+        \n\nTo Edit an item, adjust the amount in inventory, or view additional item details, you may tap on any item on the screen.
+        \n\nYou may long press an item to delete it. You may also choose the Clear Inventory button from the sidebar to remove all inventory items.
+        \n\nPlease send all additional questions to falco.mcpherson@gmail.com
+        \n\nYou may press the back key to return to the main inventory page at any time.</string>
+
+
+</resources>

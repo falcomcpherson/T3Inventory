@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ViewInventoryActivity">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/add_item"
+            android:icon="@drawable/add_icon"
+            android:title="@string/add_new_item" />
+        <item
+            android:id="@+id/test_item"
+            android:icon="@drawable/add_icon"
+            android:title="@string/insert_test_item" />
+        <item
+            android:id="@+id/clear_inventory"
+            android:icon="@drawable/delete_icon"
+            android:title="@string/clear_inventory" />
+        <item
+            android:id="@+id/help_menu"
+            android:icon="@drawable/help_icon"
+            android:title="@string/help_menu" />
+    </group>
+</menu>
